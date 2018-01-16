@@ -39,8 +39,7 @@ describe "Simon says" do
       expect(repeat("hello")).to eq("hello hello")
     end
 
-    # Wait a second! How can you make the "repeat" method
-    # take one *or* two arguments?
+    # Wait a second! How can you make the
     #
     # Hint: *default values*
     it "should repeat a number of times" do
@@ -89,7 +88,7 @@ describe "Simon says" do
     end
 
     it "does capitalize 'little words' at the start of a title" do
-      expect(titleize("the bridge over the river kwai")).to eq("The Bridge over the River Kwai")
+      expect(titleize("the bridge over the river kwai")).to eq("The Bridge Over the River Kwai")
     end
   end
 
